@@ -28,7 +28,7 @@ az ad sp create-for-rbac --name terraform --role='Contributor' --scopes='/subscr
 
 This should yield an output like:
 
-```yaml
+```json
 {
   "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "displayName": "terraform",
@@ -39,7 +39,7 @@ This should yield an output like:
 
 7. Once this is done, create a `terraform.tfvars` file in folder `.terraform`. File should look like this:
 
-```json
+```yaml
 client_id       = "<your-app-id>"
 client_secret   = "<your-password>"
 tenant_id       = "<your-tenant-id>"
