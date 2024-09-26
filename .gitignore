@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Backup files created by Terraform
+*.tfvars.backup
+
+# Terraform variable files containing sensitive data
+*.tfvars
+*.tfvars.json
+
+# Terraform provider lock file
+.terraform.lock.hcl
+
+# Directories for Terraform modules and providers
+.terraform/
+
+# Ignore override files as they are usually used to override Terraform configurations locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore any files that might contain secrets or configuration specific to your environment
+secret.auto.tfvars
+
+# Ignore Terraform plan output files
+*.tfplan
+
+# Ignore environment variable files
+.env
+
