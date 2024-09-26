@@ -28,7 +28,7 @@ az ad sp create-for-rbac --name terraform --role='Contributor' --scopes='/subscr
 
 This should yield an output like:
 
-```json
+```yaml
 {
   "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "displayName": "terraform",
